@@ -3,5 +3,6 @@
     "pages/home/home",
     "pages/about/about",
     "pages/category/category"
-  ]
+  ],
+  "sitemapLocation": "sitemap.json"
 }
