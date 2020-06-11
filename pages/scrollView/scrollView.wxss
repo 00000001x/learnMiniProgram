@@ -1,0 +1,24 @@
+/* pages/scrollView/scrollView.wxss */
+.contain1{
+  background: #2adfa8;
+  white-space: nowrap;
+}
+.item1{
+  height:100px;
+  width: 100px;
+  background: #c2f50b;
+  margin: 10px;
+  display: inline-block ;
+}
+.contain2{
+  background: #eb8c10;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.item2{
+  height:100px;
+  width: 100%;
+  background: #d60c93;
+  margin: 10px;
+  display: inline-block ;
+}

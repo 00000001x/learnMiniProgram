@@ -1,0 +1,31 @@
+<!--pages/image/image.wxml-->
+<!--1.image基本使用-->
+<!--
+    重点：
+    1）可以写成单标签，也可以写成双标签
+    2）默认有自己的大小 320*240
+    3）image是一个行内块级元素（inline-block）
+-->
+<image/>
+<text>哈哈</text>
+<!--2.src:本地路径/远程地址-->
+<image src="../../assets/images/touxiang1.png"/>
+<image src="/assets/images/touxiang1.png"/>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"/>
+
+<!--补充：显示相册里的照片-->
+<button bindtap="handleChooseImg">选中图片</button>
+<image src="{{imgPath}}" />
+
+<!--3.bindload:监听图片加载完成-->
+<!--lazy-load:图片懒加载，在即将进入一定范围（上下三屏）时才开始加载-->
+<image wx:for="{{1}}" wx:key="un" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" bindload="imgIsFinish" lazy-load/>
+
+<!--4.show-menu-by-longpress:长按图片出现识别小程序 仅在wx.previewImage中支持长按识别 预览需加data-src-->
+<image show-menu-by-longpress src="{{imgPath}}" bindtap="previewImg" data-src="{{imgPath}}"/>
+
+<!--5.mode:模式 默认值：scaleToFill-->
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"/>
+
+
+

@@ -1,0 +1,21 @@
+<!--pages/scrollView/scrollView.wxml-->
+<!--1. 水平滚动 scroll-x 得加这个属性：white-space: nowrap;-->
+<scroll-view class="contain1" scroll-x>
+<view wx:for="{{10}}" class="item1" wx:key="un">
+{{item}}x
+</view>
+</scroll-view>
+
+<!--2. 垂直滚动 scroll-y 必须设置height -->
+<scroll-view class="contain2" scroll-y>
+<view wx:for="{{10}}" class="item2" wx:key="un">
+{{item}}y
+</view>
+</scroll-view>
+
+<!--3.其他补充-->
+<scroll-view class="contain2" bindscroll="handleScroll" scroll-y>
+<view wx:for="{{10}}" class="item2" wx:key="un">
+{{item}}y
+</view>
+</scroll-view>

@@ -1,0 +1,5 @@
+/* pages/button/button.wxss */
+.pressed{
+  background: #56c49f;
+  color: #ffffff;
+}

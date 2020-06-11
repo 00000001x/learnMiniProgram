@@ -1,0 +1,16 @@
+/* pages/view/view.wxss */
+.box1{
+  border: 1px solid rgb(27, 123, 212);
+}
+.hover-view{
+  background: rgb(53, 196, 18);
+  font-size: 18px;
+}
+.parent-hover-class{
+  background: #e9c110;
+  font-size: 32px;
+}
+.child-hover-class{
+  background: #f31282;
+  font-size: 8px;
+}

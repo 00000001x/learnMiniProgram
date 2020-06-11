@@ -1,0 +1,27 @@
+<!--pages/button/button.wxml-->
+<!--1.button基本属性 默认块级元素-->
+<button>按钮</button>
+<!--2.size属性 mini(行内元素)-->
+<button size="mini">按钮2-1</button>
+<button size="mini">按钮2-2 </button>
+<!--3.type属性-->
+<button size="mini" type="primary">按钮3-1</button>
+<button size="mini" type="default">按钮3-2</button>
+<button size="mini" type="warn">按钮3-3</button>
+<!--4.plain 镂空效果-->
+<button plain>按钮4</button>
+<!--5.disabled:不可用-->
+<button disabled>按钮5</button>
+<!--6.loading-->
+<button size="mini" loading="{{isLoadingT}}">按钮6-1</button>
+<button size="mini" loading="{{isLoadingF}}">按钮6-2</button>
+<!--7.hover-class-->
+<button hover-class="pressed">按钮7</button>
+<!--8.open-type-->
+<button size="mini" open-type="contact" bindgetuserinfo="onContact">打开客服会话</button>
+<button size="mini" open-type="share">程序分享</button>
+<button size="mini" open-type="getPhoneNumber" bindgetphonenumber="onPhoneNumber">获取用户电话</button>
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="onUserInfo">获取用户信息</button>
+<button size="mini" open-type="launchApp">打开app</button>
+<button size="mini" open-type="openSetting">打开授权设置</button>
+<button size="mini" open-type="feedback">意见反馈</button>

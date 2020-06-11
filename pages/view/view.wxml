@@ -1,0 +1,25 @@
+<!--pages/view/view.wxml-->
+<!--1.view基本属性-->
+<view class="box1">
+哈哈哈
+<text>啦啦啦</text>
+</view>
+<view class="box2">呵呵呵</view>
+<!--2.hover-class：当用户按下组件时，显示的样式-->
+<view hover-class="hover-view">按下效果</view>
+<!--3.hover-stay-time：手指松开后点击态保留时间,默认400毫秒-->
+<view hover-class="hover-view" hover-stay-time="1000">手指松开后点击态保留时间</view>
+<!--4.hover-start-time:按住后多久出现点击态,默认50毫秒-->
+<view hover-class="hover-view" hover-start-time="1000">按住后多久出现点击态</view>
+<!--5.hover-stop-propagation：指定是否阻止本节点的祖先节点出现点击态 默认false {{}}赋值 或者不赋值，‘’代表为空，即为false,'11'有值即为true-->
+<view hover-class="parent-hover-class">
+<view hover-class="child-hover-class">不阻止父节点</view>
+<view hover-class="child-hover-class" hover-stop-propagation="">不阻止父节点</view>
+<view hover-class="child-hover-class" hover-stop-propagation>阻止父节点</view>
+<view hover-class="child-hover-class" hover-stop-propagation="{{true}}">阻止父节点</view>
+<view hover-class="child-hover-class" hover-stop-propagation="true">阻止父节点</view>
+<view hover-class="child-hover-class" hover-stop-propagation="false">阻止父节点</view>
+父节点
+</view>
+
+
