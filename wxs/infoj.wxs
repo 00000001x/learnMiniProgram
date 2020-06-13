@@ -1,0 +1,13 @@
+//Js代码
+var message = "Hello World";
+var name = "sky";
+function sum(num1,num2){
+  return num1+num2;
+}
+
+//commonjs的模块化导出的写法
+module.exports = {
+  message:message,
+  name:name,
+  sum1:sum
+}

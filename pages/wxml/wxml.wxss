@@ -1,0 +1,9 @@
+/* pages/wxml/wxml.wxss */
+.box11{
+  height: 100rpx;
+  background: #48db1b;
+}
+.active{
+  height: 100rpx;
+  background: #1093df;
+}
