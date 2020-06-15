@@ -1,0 +1,2 @@
+<!--components/cpn-cpn/cpn-cpn.wxml-->
+<view>我是组件内的组件引用</view>

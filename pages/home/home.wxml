@@ -1,3 +1,29 @@
 <!--pages/home/home.wxml-->
 <text class="title">Hello World</text>
 <button size="mini">按钮</button>
+<view>------------------</view>
+<!--1.自定义组件的基本使用-->
+<my-cpn></my-cpn>
+<view>------------------</view>
+<my-cpn />
+<f-cpn></f-cpn>
+
+<!--2.自定义组件的样式细节-->
+<my-style />
+
+<!--3.自定义组件的1）参数传递 properties   2）样式传递 externalClasses-->
+<my-prop title="啦啦啦" paramTitle="啦啦啦" titleclass="titleClass1"/>
+<my-prop titleClass="titleClass2"/>
+
+<view>当前计数：{{counter}}</view>
+<!--4.自定义组件内部事件-->
+<my-event bind:increment="handleIncrement1"/>
+
+<!--5.tab-test练习-->
+<tab-test titles="{{mytitles}}" bind:clickItem="handleClick"/>
+<view class="content">
+{{content}}
+</view>
+<!--6.直接选中组件修改内容数据方法-->
+<button bindtap="handleInrementCpn">组件外的按钮</button>
+<my-select id="my-select"/>

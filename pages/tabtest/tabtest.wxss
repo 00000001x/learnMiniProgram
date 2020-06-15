@@ -1,0 +1,5 @@
+/* pages/tabtest/tabtest.wxss */
+.content{
+  height:200rpx;
+  border:1px solid #2b2727;
+}

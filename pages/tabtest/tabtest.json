@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "tab-test":"/components/tab-test/tab-test"
+  }
+}

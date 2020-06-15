@@ -1,7 +1,12 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/tabtest/tabtest",
     "pages/about/about",
     "pages/category/category"
-  ]
+  ],
+  "usingComponents": {
+    "f-cpn": "/components/mycomponent/mycomponent"
+  },
+  "sitemapLocation": "sitemap95.json"
 }

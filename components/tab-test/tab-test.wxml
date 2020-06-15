@@ -1,0 +1,7 @@
+<!--components/tab-test/tab-test.wxml-->
+<view class="container">
+<block wx:for="{{titles}}" wx:key="index">
+<view class="container-item {{currentIndex==index? 'active':''}}" bindtap="onClickItem" data-index="{{index}}" data-title="{{item}}">
+<text>{{item}}</text></view>
+</block>
+</view>

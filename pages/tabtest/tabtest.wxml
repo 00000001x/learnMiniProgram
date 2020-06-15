@@ -1,0 +1,5 @@
+<!--pages/tabtest/tabtest.wxml-->
+<tab-test titles="{{mytitles}}" bind:clickItem="handleClick"/>
+<view class="content">
+{{content}}
+</view>

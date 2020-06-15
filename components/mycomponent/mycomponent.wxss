@@ -1,0 +1,8 @@
+/* customComponents/mycomponent/mycomponent.wxss */
+.title{
+  font-size: 24px;
+  color: #1eb1f5;
+}
+.content{
+  font-size: 16px;
+}
