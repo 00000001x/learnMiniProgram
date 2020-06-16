@@ -1,5 +1,15 @@
 /* pages/home/home.wxss */
 .title{
   color:#f0f0f0;
-  font-size: 24px;
+  font-size: 48px;
+  background: red;
+}
+.titleClass1{
+  color:blue;
+  width:500rpx;
+  height:200rpx;
+  background: #f0f0f0;
+}
+.titleClass2{
+  color:purple;
 }
