@@ -1,3 +1,20 @@
 <!--pages/home/home.wxml-->
 <text class="title">Hello World</text>
 <button size="mini">按钮</button>
+
+<!--1.Toast-->
+<button bind:tap="handleShowToast">show Toast</button>
+
+<!--2.Modal-->
+<button bind:tap="handleShowModal">show Modal</button>
+
+<!--3.Loading-->
+<!--注意：1.wx.showLoading 和 wx.showToast 同时只能显示一个
+         2.wx.showLoading 应与 wx.hideLoading 配对使用-->
+<button bind:tap="handleShowLoading">show Loading</button>
+
+<!--4.ActionSheet-->
+<button bind:tap="handleShowActionSheet">show ActionSheet</button>
+
+<!--5.分享按钮-->
+<button open-type="share" size="mini">分享</button>
