@@ -1,0 +1,5 @@
+<!--pages/detail/detail.wxml-->
+<text>详情页面</text>
+<navigator open-type="navigateBack">返回</navigator>
+<navigator url="/pages/comment/comment">跳转到评论页</navigator>
+<button bindtap="toHome">返回</button>
